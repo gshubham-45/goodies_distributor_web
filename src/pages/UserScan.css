@@ -1,0 +1,57 @@
+.user-scan-container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 24px;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.gpn-input {
+  width: 80%;
+  padding: 10px;
+  margin: 12px 0;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.start-scan-button {
+  padding: 10px 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 20px;
+  transition: background-color 0.3s;
+}
+
+.start-scan-button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+}
+
+.start-scan-button:hover:not(:disabled) {
+  background-color: #0056b3;
+}
+
+#qr-reader {
+  margin-top: 20px;
+  width: 100%;
+  min-height: 280px;
+  border: 2px dashed #007bff;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.scan-result {
+  margin-top: 20px;
+  font-size: 16px;
+  color: green;
+  white-space: pre-wrap;
+  text-align: left;
+}
